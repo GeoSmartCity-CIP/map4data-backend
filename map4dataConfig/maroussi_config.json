@@ -1,0 +1,15 @@
+{
+	wms:	"http://sunshine.sinergis.it/geoserver/wms",
+	wfs:	"http://sunshine.sinergis.it/geoserver/wfs",
+	layer:  "maroussi",
+	srs: 	"EPSG:3857",
+	zoom:	"17",
+	centerx:"2649750",
+	centery:"4585966",
+	geouser:"user",
+	geopsw :"map4datauser",
+	config: "maroussi_parameter",
+	workspace:"sunshine",
+	namespace:"http://www.sunshineproject.eu"
+	
+}

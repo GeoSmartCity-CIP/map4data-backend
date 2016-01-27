@@ -1,0 +1,216 @@
+{
+	configList:[
+		{
+			dbName: "date",
+			nameShow: "years of construction",
+			kind: "multiploInt",
+			style: 1,
+			values:[
+				{key:"begin",value:"begin"},
+				{key:"end",value:"end"}	
+				],
+			info:"<B>epoca di costruzione (years of construction):</b>
+Corrisponde all&rsquo;epoca presunta di costruzione dell&rsquo;edificio; &egrave; possibile indicare solo l&rsquo;anno iniziale oppure quello finale o entrambi. Ai fini della mappatura energetica degli edifici, &egrave; importante individuare l&rsquo;epoca di costruzione cui poter associare caratteristiche costruttive tipiche. Cercate quindi di individuare un periodo di riferimento di costruzione dell&rsquo;edificio o del momento in cui ha subito una ristrutturazione particolarmente significativa dal punto di vista energetico. Attenzione: la datazione di un edificio in base all&rsquo;aspetto esterno pu&ograve; essere fuorviante anche per esperti del settore. Se non riuscite ad entrare in contatto con qualcuno che ne conosca la &ldquo;storia&rdquo; e le caratteristiche cercate di individuare dei macro periodi di costruzione, differenti da Stato a Stato. Per esempi di riferimento &egrave; possibile consultare http://webtool.building-typology.eu/webtool/tabula.html
+In Italia periodi indicativi in cui possono essere riscontrabili similari tipologie costruttive sono:
+<ul>
+<li>0 - 1900</li>
+<li>1901 - 1945</li>
+<li>1945 - 1960</li>
+<li>1961 - 1975</li>
+<li>1975 - 1990</li>
+<li>1991 - 2005</li>
+<li>2005 - oggi</li>
+</ul>
+"
+		},
+		{
+			dbName: "m_use",
+			nameShow: "uses",
+			kind: "checkBox",
+			style: 1,
+			values:[
+				{key:"residential",value:"residential"},		{key:"agriculture",value:"agriculture"},	
+				{key:"industrial",value:"industrial"},
+				{key:"commerceAndServices",value:"commerce and services"},
+				{key:"ancillary",value:"ancillary"}
+				],
+			info:"<b>usi dell&rsquo;edificio (uses):</b>
+			Indicare attraverso una scelta multipla obbligata gli usi presenti nell&rsquo;edificio. Possibile una risposta multipla, selezionare gli usi riscontrabili in misura significativa, quindi presenti almeno nel 20% dell&rsquo;immobile tra:
+			<ul>
+			<li>Residential (Residenziale) </li>
+<li>agricolture (Agricolo: capannoni, fienili, stalle) </li>
+<li>industrial (Industriale: locali di produzione, magazzini, officine) </li>
+<li>commerce and services (Commerciale: negozi, bar, ristoranti -  Servizi: uffici e studi professionali, strutture sanitarie, cinema, scuole) </li>
+<li>ancillary (Accessori: garage, cantine, vani tecnici)</li>
+</ul>
+			
+			
+			
+			
+			"
+		},
+		{
+			dbName: "height_val",
+			nameShow: "height",
+			style: 1,
+			kind: "intero",
+			info:"<b>altezza (height):</b>
+corrisponde all&rsquo;altezza media delle facciate visibili dell&rsquo;edificio, quindi interrati e falde del tetto escluse. Si deve indicare una misura lineare in metri. Se non avete uno strumento misuratore, aiutatevi con il numero di piani e considerate mediamente 3-3,50m per piano. "
+			
+		},
+		{
+			dbName: "bdg_units",
+			nameShow: "Number of building units",
+			kind: "intero",
+			style: 2,
+			info:"<b>numero di unit&agrave; immobiliari (number of building units):</b>
+			Occorre individuare il numero delle unit&agrave; immobiliari dell&rsquo;edificio, indipendentemente dall&rsquo;uso o dal livello di occupazione dell&rsquo;immobile, locali accessori esclusi. Individuare l&rsquo;accesso principale all&rsquo;edificio e leggere i campanelli o le cassette postali pu&ograve; essere utile.
+			"
+		},
+		{
+			dbName: "floors",
+			nameShow: "floors",
+			kind: "intero",
+			style: 2,
+			info:"
+			<b>numero di piani (floors):</b>
+			Indicare il numero di piani abitabili o utili (riscaldati o potenzialmente riscaldabili) nell&rsquo;immobile. Ad esempio sottotetti alti e finestrati sono da considerarsi piani utili sia che siano utilizzati o meno, come pure le cantine o i seminterrati abitati. Un piano terra formato solo da portico, cantine e garage non va conteggiato.						
+			"
+		},
+		
+		{
+			dbName: "refurbishm",
+			nameShow: "refurbishm",
+			kind: "radioButton",
+			style: 2,
+			values:[
+				{key:"",value:"NULL"},		{key:"norefurbishment",value:"no refurbishment"},	
+				{key:"standard",value:"standard"},
+				{key:"advanced",value:"advanced"}
+				],
+			info:"
+			<b>livello di ristutturazione (refurbishment):</b>
+			Indicare attraverso una scelta multipla obbligata una stima del livello medio di ristrutturazione dell&rsquo;edificio dal punto di vista energetico. 
+			<b>Non valutato (null)</b>
+			Nessuna ristrutturazione (no refurbishment): edificio non di recente costruzione (pi&ugrave; di 10 anni) e presenza di soli elementi energeticamente non prestazionali. Ad esempio, infissi a vetro singolo, tetto non ristrutturato di recente, intonaco recente ma non isolato termicamente, impianti di riscaldamento obsoleti, nessuna presenza di impianti di produzione di energia da fonti rinnovabili come pannelli solari.
+			Media (standard): edificio anche non di recente costruzione, ma che presenti l&rsquo;introduzione di qualche elemento che possa migliorare le prestazioni energetiche dell&rsquo;edificio. Ad esempio, infissi con doppi vetri, tetto ristrutturato di recente, cappotto o pareti isolate internamente, impianto di riscaldamento o caldaia rinnovati, presenza di produzione di energia da fonti rinnovabili come pannelli solari o fotovoltaici.
+			Avanzata (advanced): edificio di recente costruzione (non pi&ugrave; di 5 anni) o edificio non di recente costruzione che presenti l&rsquo;introduzione di molti elementi che possano migliorare le prestazioni energetiche dell&rsquo;edificio. Ad esempio, infissi con doppi vetri, tetto ristrutturato di recente, cappotto o pareti isolate internamente, impianto di riscaldamento o caldaia rinnovati, presenza di produzione di energia da fonti rinnovabili come pannelli solari o fotovoltaici.
+			
+			
+			
+			
+			
+			"
+		},
+		{
+			dbName: "energy_perf",
+			nameShow: "energy class",
+			kind: "radioButton",
+			style: 2,
+			values:[
+				{key:"",value:"NULL"},		
+				{key:"a",value:"A"},	
+				{key:"b",value:"B"},
+				{key:"c",value:"C"},
+				{key:"d",value:"D"},
+				{key:"e",value:"E"},
+				{key:"f",value:"F"},
+				{key:"g",value:"G"}
+				
+				],
+			info:"
+			<b>classe energetica (energy class): null &ndash; A &ndash; B &ndash; C &ndash; D &ndash; E &ndash; F &ndash; G:</b>
+			indicare attraverso una scelta multipla obbligata la classe energetica dell&rsquo;intero edificio riportata nell&rsquo;attestato di prestazione energetica emesso da un Tecnico certificatore. Attenzione: questo valore non &egrave; stimabile, n&eacute; individuabile in base all&rsquo;aspetto esterno dell&rsquo;edificio e nemmeno dalla conoscenza dell&rsquo;attestato di una singola unit&agrave; immobiliare di un edificio con pi&ugrave; appartamenti. Se quindi non siete voi il proprietario o se non riuscite ad entrare in contatto con qualcuno che conosca questo valore selezionate null.
+			"
+		},
+		{
+			dbName: "heat_syst",
+			nameShow: "heating system",
+			kind: "checkBox",
+			style: 2,
+			values:[				
+				{key:"centralheating",value:"central heating"},	
+				{key:"districtheating",value:"district heating"},
+				{key:"electricraditors",value:"electric raditors"},
+				{key:"heatpump",value:"heatpump"},
+				{key:"portablegasheating",value:"portable gas heating"},
+				{key:"solarheating",value:"solar heating"},
+				{key:"stove",value:"stove"}								
+				],
+			info:"
+			<b>Sistema di riscaldamento (Heating system):</b>
+			indicare attraverso una scelta multipla obbligata il sistema di riscaldamento dell&rsquo;intero edificio. Possibile una risposta multipla, selezionare i sistemi di generazione ed emissione riscontrabili in misura prevalente nell&rsquo;immobile. Attenzione: questo valore non &egrave; individuabile in base all&rsquo;aspetto esterno dell&rsquo;edificio. Se quindi non siete voi il proprietario o se non riuscite ad entrare in contatto con qualcuno che conosca questo valore selezionate null.
+			<ul>
+			<li>riscaldamento autonomo (independent heating system) nel caso di un edificio composto da un&rsquo;unica unit&agrave; immobiliare o nel caso di un edificio con pi&ugrave; unit&agrave; immobiliari con sistemi di generazione indipendenti (es. caldaia).  </li> 
+			<li><b>riscaldamento centralizzato (central heating):</b> nel caso pi&ugrave; unit&agrave; immobiliari con sistemi di riscaldamento afferenti ad un unico sistema di generazione (es. caldaia).  </li> 
+			<li><b>Teleriscaldamento (district heating)</b>  </li> 
+			<li><b>Radiatori elettrici (electric radiators)</b>  </li> 
+			<li><b>Pompe di calore (heat pump)</b>  </li> 
+			<li><b>Stufe a gas (portable gas heating)</b> </li> 
+			<li><b>Pannelli solari (solar heating)</b>  </li> 
+			<li><b>Stufe a biomassa (stove):</b> legna, pellet etc.. </li>
+			</ul>				
+			"
+			
+				
+		},
+		{
+			dbName: "perf_value",
+			nameShow: "energy value(KWh/(m^2*year))",
+			kind: "intero",
+			style: 2,
+			info : "
+			<b>Indice di Prestazione energetica &ndash; kWh/m2 anno (Energy value - kWh/m2 year):</b>
+			indicare il valore esatto dell&rsquo;indice di prestazione energetica dell&rsquo;intero edificio riportato nell&rsquo;attestato di prestazione energetica emesso da un Tecnico certificatore. Attenzione: questo valore non &egrave; stimabile, n&eacute; individuabile in base all&rsquo;aspetto esterno dell&rsquo;edificio e nemmeno dalla conoscenza dell&rsquo;attestato di una singola unit&agrave; immobiliare di un edificio con pi&ugrave; appartamenti. Se quindi non siete voi il proprietario o se non riuscite ad entrare in contatto con qualcuno che conosca questo valore selezionate null. Selezionare null anche in caso di valore riportato nell&rsquo;attestato con una diversa unit&agrave; di misura.
+			"
+			
+			
+		},
+		{
+			dbName: "occupancy_level",
+			nameShow: "occupancy level",
+			kind: "radioButton",
+			style: 2,
+			values:[
+				{key:"",value:"NULL"},		
+				{key:"notusable",value:"not usable"},	
+				{key:"notused",value:"not used"},
+				{key:"partiallyused",value:"partially used"},
+				{key:"mainlyused",value:"mainly used"},
+				{key:"temporarilyused",value:"temporally used"},
+				{key:"used",value:"used"}							
+				
+				],
+				info:"
+				<b>Stato di occupazione dell&rsquo;edificio (Occupancy level):</b>
+				 indicare attraverso una scelta multipla obbligata una stima del livello di occupazione dell&rsquo;edificio. Individuare l&rsquo;accesso principale all&rsquo;edificio e leggere i campanelli o le cassette postali pu&ograve; essere utile.
+				
+				<ul>
+				
+				<li><b>Non valutato (null) </b></li>
+				<li><b>Non utilizzabile (not usable):</b> edificio non abitabile (es. senza sistemi di riscaldamento o infissi) o pericolante (es. copertura crollata, gravi danni alle strutture) </li>
+				<li><b>Non utilizzato (not used):</b> edificio in costruzione (o comunque in fase di cantiere) oppure completamente non utilizzato (unit&agrave; immobiliari vuote)</li>
+				<li><b>Utilizzato (Used):</b> utilizzato completamente in maniera continuativa o in caso di edificio con pi&amp;ugrave; unit&amp;agrave; immobiliari, in caso ne siano occupate pi&amp;ugrave; del 70% </li>
+				<li><b>Poco utilizzato (partially used):</b> in caso di edificio con più unità immobiliari, in caso ne siano occupate meno del 30% </li>
+				<li><b>Prevalentemente utilizzato (mainly used):</b> in caso di edificio con pi&ugrave; unit&agrave; immobiliari, in caso ne siano occupate in maniera continuativa dal 30 al 70%</li>
+				<li><b>Utilizzato temporaneamente (temporally used):</b> uso saltuario dell&rsquo;intero immobile </li>
+				<ul>
+				
+				"
+				
+		},{
+			dbName: "userlast",
+			nameShow: "userlast",
+			kind: "hideUser",
+			style: 2
+		}
+
+		
+	
+	
+	
+	
+	]
+
+
+}

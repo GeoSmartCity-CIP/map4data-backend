@@ -1,0 +1,138 @@
+{
+	configList:[
+		{
+			dbName: "date",
+			nameShow: "years of construction",
+			kind: "multiploInt",
+			style: 1,
+			values:[
+				{key:"begin",value:"begin"},
+				{key:"end",value:"end"}	
+				]
+		},
+		{
+			dbName: "m_use",
+			nameShow: "uses",
+			kind: "checkBox",
+			style: 1,
+			values:[
+				{key:"residential",value:"residential"},		{key:"agriculture",value:"agriculture"},	
+				{key:"industrial",value:"industrial"},
+				{key:"commerceAndServices",value:"commerce and services"},
+				{key:"ancillary",value:"ancillary"}
+				]
+		},
+		{
+			dbName: "height_val",
+			nameShow: "height",
+			style: 1,
+			kind: "intero"		
+			
+		},
+		{
+			dbName: "bdg_units",
+			nameShow: "Number of building units",
+			kind: "intero",
+			style: 2			
+		},
+		{
+			dbName: "floors",
+			nameShow: "floors",
+			kind: "intero",
+			style: 2
+		},
+		
+		{
+			dbName: "refurbishm",
+			nameShow: "refurbishm",
+			kind: "radioButton",
+			style: 2,
+			values:[
+				{key:"",value:"NULL"},		{key:"norefurbishment",value:"no refurbishment"},	
+				{key:"standard",value:"standard"},
+				{key:"advanced",value:"advanced"}
+				]
+		},
+		{
+			dbName: "energy_perf",
+			nameShow: "energy class",
+			kind: "radioButton",
+			style: 2,
+			values:[
+				{key:"",value:"NULL"},		
+				{key:"a",value:"A"},	
+				{key:"b",value:"B"},
+				{key:"c",value:"C"},
+				{key:"d",value:"D"},
+				{key:"e",value:"E"},
+				{key:"f",value:"F"},
+				{key:"g",value:"G"}
+				
+				]
+		},
+		{
+			dbName: "heat_syst",
+			nameShow: "heating system",
+			kind: "checkBox",
+			style: 2,
+			values:[				
+				{key:"centralheating",value:"central heating"},	
+				{key:"districtheating",value:"district heating"},
+				{key:"electricraditors",value:"electric raditors"},
+				{key:"heatpump",value:"heatpump"},
+				{key:"portablegasheating",value:"portable gas heating"},
+				{key:"solarheating",value:"solar heating"},
+				{key:"stove",value:"stove"}				
+				
+				]
+		},
+		{
+			dbName: "perf_value",
+			nameShow: "energy value(KWh/(m^2*year))",
+			kind: "intero",
+			style: 2
+		},
+		{
+			dbName: "occupancy_level",
+			nameShow: "occupancy level",
+			kind: "radioButton",
+			style: 2,
+			values:[
+				{key:"",value:"NULL"},		
+				{key:"notusable",value:"not usable"},	
+				{key:"notused",value:"not used"},
+				{key:"partiallyused",value:"partially used"},
+				{key:"mainlyused",value:"mainly used"},
+				{key:"temporarilyused",value:"temporally used"},
+				{key:"used",value:"used"}							
+				
+				]
+		},
+		{
+			dbName: "residents",
+			nameShow: "residents",
+			kind: "intero",
+			style: 2
+		},
+		{
+			dbName: "quality",
+			nameShow: "quality",
+			kind: "radioButton",
+			style: 2,
+			values:[
+				{key:"",value:"NULL"},		
+				{key:"1",value:"1"},	
+				{key:"2",value:"2"},
+				{key:"3",value:"3"},				
+				]
+		}
+
+		
+	
+	
+	
+	
+	]
+
+
+}

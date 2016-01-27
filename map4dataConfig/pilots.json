@@ -1,0 +1,28 @@
+{	version:1,
+	pilots:[{
+			show:"Select your pilot",
+			name:""
+		},
+		{
+			show:"Ferrara",
+			name:"ferrara"
+		},
+		{
+			show:"Lamia",
+			name:"lamia"
+		},
+		{
+			show:"Trento",
+			name:"trento"
+		},
+		{
+			show:"Cles",
+			name:"cles"
+		},
+		
+		{
+			show:"Paola",
+			name:"paola"
+		}
+		]
+}

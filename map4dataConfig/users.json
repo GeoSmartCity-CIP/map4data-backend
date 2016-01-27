@@ -1,0 +1,14 @@
+{	version:1,
+	users:[ {
+			user:"Test",
+			psw:"Test",
+			pilots:["ferrara"]
+		}, 
+		{
+			user:"lamia",
+			psw:"lamia",
+			pilots:["lamia"]
+		}
+
+	]
+}

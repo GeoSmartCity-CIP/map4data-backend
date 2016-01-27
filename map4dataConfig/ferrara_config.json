@@ -1,0 +1,43 @@
+{
+	wms:	"http://sunshine.sinergis.it/geoserver/wms",
+	wfs:	"http://sunshine.sinergis.it/geoserver/wfs",
+	layer:  "ferrara_reproject",
+	srs: 	"EPSG:3857",
+	zoom:	"17",
+	centerx:"1293373",
+	centery:"5595535",
+	geouser:"user",
+	geopsw :"sunshine",
+	workspace:"sunshine",
+	namespace:"http://www.sunshineproject.eu",
+	
+	styles:[
+		{key:"complete_status",value:"Data completeness"},
+		{key:"bdgUse",value:"Uses"},
+		{key:"bdgHeight",value:"Height"},
+		{key:"bdgAgeOfConstruction",value:"Age of construction"}
+	],
+	
+	
+	
+	layers: [{
+		name: "Agea 2011 rgb",
+		wms:  "http://servizigis.regione.emilia-romagna.it/wms/agea2011_rgb",
+		layer: "Agea2011_RGB"
+		},
+		{}
+	],
+	layers_more: [
+		{
+		type: "wms",
+		name: "Addresses",
+		wms:  "http://sunshine.sinergis.it/geoserver/sunshine/wms/sunshine:civici_fe",
+		layer: "sunshine:civici_fe"
+		},
+		{}
+	],
+
+
+
+	config: "standard"
+}

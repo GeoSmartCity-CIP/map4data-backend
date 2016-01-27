@@ -1,0 +1,14 @@
+{
+	wms:	"http://sunshine.sinergis.it/geoserver/wms",
+	wfs:	"http://sunshine.sinergis.it/geoserver/wfs",
+	layer:  "trento",
+	srs: 	"EPSG:3857",
+	zoom:	"17",
+	centerx:"1238162",
+	centery:"5789902",
+	geouser:"user",
+	geopsw :"map4datauser",
+	workspace:"sunshine",
+	namespace:"http://www.sunshineproject.eu",
+	config: "standard"
+}

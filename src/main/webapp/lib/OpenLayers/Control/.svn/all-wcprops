@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control
+END
+Navigation.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Navigation.js
+END
+TouchNavigation.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/TouchNavigation.js
+END
+DrawFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/DrawFeature.js
+END
+LayerSwitcher.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/LayerSwitcher.js
+END
+ZoomPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/ZoomPanel.js
+END
+PanZoom.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/PanZoom.js
+END
+PinchZoom.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/PinchZoom.js
+END
+Permalink.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Permalink.js
+END
+Scale.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Scale.js
+END
+PanPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/PanPanel.js
+END
+Panel.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Panel.js
+END
+Geolocate.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Geolocate.js
+END
+OverviewMap.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/OverviewMap.js
+END
+PanZoomBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/PanZoomBar.js
+END
+WMTSGetFeatureInfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/WMTSGetFeatureInfo.js
+END
+GetFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/GetFeature.js
+END
+Pan.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Pan.js
+END
+Snapping.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Snapping.js
+END
+KeyboardDefaults.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/KeyboardDefaults.js
+END
+CacheRead.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/CacheRead.js
+END
+ZoomBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/ZoomBox.js
+END
+Graticule.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Graticule.js
+END
+ArgParser.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/ArgParser.js
+END
+Zoom.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Zoom.js
+END
+Button.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Button.js
+END
+MousePosition.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/MousePosition.js
+END
+UTFGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/UTFGrid.js
+END
+WMSGetFeatureInfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/WMSGetFeatureInfo.js
+END
+TransformFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/TransformFeature.js
+END
+DragPan.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/DragPan.js
+END
+SLDSelect.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/SLDSelect.js
+END
+EditingToolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/EditingToolbar.js
+END
+DragFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/DragFeature.js
+END
+NavigationHistory.js
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/NavigationHistory.js
+END
+ZoomToMaxExtent.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/ZoomToMaxExtent.js
+END
+Attribution.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Attribution.js
+END
+Measure.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Measure.js
+END
+ScaleLine.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/ScaleLine.js
+END
+CacheWrite.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/CacheWrite.js
+END
+ModifyFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/ModifyFeature.js
+END
+ZoomOut.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/ZoomOut.js
+END
+SelectFeature.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/SelectFeature.js
+END
+Split.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/Split.js
+END
+NavToolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/NavToolbar.js
+END
+ZoomIn.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/vsvn/sinergis_apps/!svn/ver/1210/sunshine/map4dataWeb/src/main/webapp/lib/OpenLayers/Control/ZoomIn.js
+END
